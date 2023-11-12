@@ -39,7 +39,7 @@ body {
 .nameDalo {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: column;
   margin-top: 25%;
 }
