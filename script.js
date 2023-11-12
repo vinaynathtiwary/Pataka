@@ -20,12 +20,12 @@ Ro_cat?.addEventListener("click", () => {
 share?.addEventListener("click", () => {
   navigator.share({
     title: "Happy Diwali",
-    url: "https://vinaynathtiwary.github.io/pataka",
+    url: "https://vinaynathtiwary.github.io/Pataka",
   });
 });
 
 const Submit = document.getElementById("Submit");
 Submit?.addEventListener("click", () => {
   const name = document.getElementById("naamDalDiya");
-  window.location.href = `https://vinaynathtiwary.github.io/pataka/rocket.html?name=${name.value}`;
+  window.location.href = `https://vinaynathtiwary.github.io/Pataka/rocket.html?name=${name.value}`;
 });
